@@ -12,6 +12,7 @@ async function startApolloServer(typeDefs, resolvers) {
         trackAPI: new TrackAPI(),
       };
     },
+    context,
     introspection: true,
   });
 
